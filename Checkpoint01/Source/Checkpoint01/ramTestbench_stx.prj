@@ -1,0 +1,4 @@
+verilog isim_temp "Timer.v"
+verilog isim_temp "SDRAMControl.v"
+verilog isim_temp "ramTestbench.v"
+verilog isim_temp "C:/Xilinx/verilog/src/glbl.v"

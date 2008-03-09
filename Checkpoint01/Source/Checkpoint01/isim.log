@@ -1,0 +1,54 @@
+ command line:
+   ./ramTestbench_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  2324
+
+Sat Mar 08 16:13:25 2008
+
+Total Line Count = 171
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 36.0776 Meg. 
+
+ Total signals 53
+ Total nets 190
+ Total signal drivers 31
+ Total blocks 4
+ Total primitive blocks 2
+ Total processes 24
+ntrace select -o on -n /ramTestbench/State 
+ntrace select -o on -n /ramTestbench/CLK 
+ntrace select -o on -n /ramTestbench/BA 
+ntrace select -o on -n /ramTestbench/CS 
+ntrace select -o on -n /ramTestbench/DQ 
+ntrace select -o on -n /ramTestbench/A 
+ntrace select -o on -n /ramTestbench/CLKE 
+ntrace select -o on -n /ramTestbench/WE 
+ntrace select -o on -n /ramTestbench/RAS 
+ntrace select -o on -n /ramTestbench/Ready 
+ntrace select -o on -n /ramTestbench/DataValid 
+ntrace select -o on -n /ramTestbench/Done 
+ntrace select -o on -n /ramTestbench/CAS 
+ntrace select -o on -n /ramTestbench/DQMH 
+ntrace select -o on -n /ramTestbench/DQML 
+ntrace select -o on -n /ramTestbench/Reset 
+ntrace select -o on -n /ramTestbench/WriteData 
+ntrace select -o on -n /ramTestbench/OutputEnable 
+ntrace select -o on -n /ramTestbench/Clock 
+ntrace select -o on -n /ramTestbench/ReadRequest 
+ntrace select -o on -n /ramTestbench/WriteRequest 
+ntrace select -o on -n /ramTestbench/Address 
+ntrace select -o on -n /ramTestbench/Mask 
+ntrace select -o on -n /ramTestbench/CUT/myTimer/In 
+ntrace select -o on -n /ramTestbench/CUT/myTimer/Out 
+ntrace select -o on -n /ramTestbench/CUT/myTimer/Current 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+restart
+run 1000 us 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
