@@ -1,0 +1,4 @@
+verilog work "Timer.v"
+verilog work "SDRAMControl.v"
+verilog work "ramTestbench.v"
+verilog work "C:/Xilinx/verilog/src/glbl.v"
